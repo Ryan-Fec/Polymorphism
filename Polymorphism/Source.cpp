@@ -1,7 +1,8 @@
 #include <iostream>
 #include "Shapes.h"
 
-void printArea(const shape& shape) {
+template<typename T>
+void printArea(const T& shape) {
 	std::cout << shape.area() << "\n";
 }
 
