@@ -1,29 +1,24 @@
 #pragma once
 #include <iostream>
 
-class shape {
-public:
-	virtual double area() const = 0;
-};
-
-class rectangle : public shape {
+class rectangle {
 public:
 	rectangle(double width, double height);
 	const double width;
 	const double height;
-	double area() const override;
+	double area() const;
 };
 
-class square : public shape {
+class square {
 public:
 	square(double side);
 	const double side;
-	double area() const override;
+	double area() const;
 };
 
-class circle : public shape {
+class circle {
 public:
 	circle(double radius);
 	const double radius;
-	double area() const override;
+	double area() const;
 };
