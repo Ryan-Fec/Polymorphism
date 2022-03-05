@@ -15,3 +15,8 @@ int main() {
 	printArea(s1);
 	printArea(c1);
 }
+
+// I find Static Polymorphism is easier to implement and use. I believe this due to the lack of a need to mess with the class definitions, which can get difficult to follow at a point.
+
+// I think that the reason static polymorphism is encouraged is that it feels a little more free. The template class can be any class whatsoever, while including a specific parent class
+// can put a limit on what is usable with the defined function. 
